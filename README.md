@@ -1,266 +1,190 @@
 # Invalid Response Detection for Creativity Assessments
 
-Automated detection of invalid responses in creativity task data using LLM judges, reward models, and perplexity scoring.
+Automated detection of invalid responses in open-ended creativity assessments using large language model judges and reward models.
 
-## Background
+## Overview
 
-Creativity assessments like the Alternate Uses Task (AUT), Design Problems Task (DPT), and Metaphor Completion collect open-ended human responses. These datasets inevitably contain **invalid responses** that should be excluded from analysis:
+Open-ended creativity assessments such as the Alternative Uses Task (AUT), Design Problems Task (DPT), and Metaphor Completion generate large volumes of free-text responses. These datasets inevitably contain invalid responses—gibberish, refusals, off-topic answers, and incomplete submissions—that must be excluded before analysis.
 
-| Type | Example | Why Invalid |
+This tool provides an automated filtering system that achieves **0.89–0.93 AUC** across creativity tasks, enabling researchers to process large datasets without manual review.
+
+### Types of Invalid Responses
+
+| Type | Example | Description |
 |------|---------|-------------|
-| Gibberish | "asdfkj", "xxx" | Random characters |
-| Refusal | "idk", "I don't know", "n/a" | No attempt |
-| Off-topic | "bricks are red" (for AUT) | Describes object, not a use |
-| Truncated | "use it to" | Incomplete |
-| Wrong task | Valid metaphor for wrong stem | Mismatched |
-
-Manual review doesn't scale. This tool automates detection using a **Quality Trio** of complementary scoring methods.
+| Gibberish | "asdfkj", "xxx" | Random or meaningless characters |
+| Refusal | "I don't know", "n/a" | No genuine attempt at the task |
+| Off-topic | "bricks are red" (for AUT) | Describes the object rather than providing a use |
+| Truncated | "use it to" | Incomplete response |
+| Wrong task | Valid response to different prompt | Coherent but mismatched to the task |
 
 ## Method
 
-### The Quality Trio
+### Scoring Models
 
-| Scorer | Model | What It Measures | Best For |
-|--------|-------|------------------|----------|
-| **Gemini** | `gemini-2.0-flash` | Task-appropriate quality (1-5) | Overall validity judgment |
-| **NVIDIA** | `llama-3.1-nemotron-70b-reward` | Response helpfulness | Detecting empty/unhelpful |
-| **Perplexity** | `GPT-2` (local) | Text surprisingness | Misspellings, nonsense |
+The system uses two complementary scoring approaches:
 
-### Why 1-5 Quality Scale?
+| Model | Description | Strengths |
+|-------|-------------|-----------|
+| **Gemini 2.0 Flash** | LLM judge with task-specific prompts rating validity on a 1–5 scale | Strong performance on divergent thinking tasks |
+| **Llama 3.1 Nemotron 70B** | Reward model trained on human preferences | Excels at detecting incoherent or unhelpful responses |
 
-Our first approach used binary valid/invalid classification. It failed badly on metaphor completion (AUC 0.56—barely better than random). The model couldn't distinguish "valid but literal" from "invalid gibberish."
+### Design Decisions
 
-Switching to a **1-5 quality scale** improved metaphor AUC from 0.56 to 0.89. The scale gives the model room to reason about borderline cases, and the distribution naturally separates:
-- **1-2**: Invalid (gibberish, refusal, off-topic)
-- **3**: Borderline (weak attempt)
-- **4-5**: Valid (clear, appropriate response)
+**1–5 Quality Scale**: Binary classification (valid/invalid) performed poorly on nuanced cases like metaphor completion (AUC 0.56). A graded scale allows the model to reason about borderline cases:
+- **1–2**: Invalid (gibberish, refusal, off-topic)
+- **3**: Borderline (weak but genuine attempt)
+- **4–5**: Valid (clear, task-appropriate response)
 
-### Why Task-Specific Prompts?
-
-Generic prompts like "Is this response valid?" fail because validity depends on the task:
-
-| Task | Valid Response Should Be |
-|------|-------------------------|
-| AUT (Alternative Uses) | A *use* for the object, not a description |
-| DPT (Design Problems) | A *solution* to the problem, not restating it |
-| META (Metaphor) | A *figurative* completion, not literal |
-
-Each task gets a custom prompt explaining what we're looking for and listing specific invalid patterns.
+**Task-Specific Prompts**: Generic validity prompts fail because what constitutes a valid response differs by task. Each task type receives a custom prompt specifying the expected response format and common invalid patterns.
 
 ## Results
 
-**Key Result**: Combining Gemini and NVIDIA in an ensemble achieves AUC scores of 0.888–0.926 across all tasks, with >90% recall for detecting invalid responses.
+Evaluated on balanced datasets (50% valid, 50% invalid) with sample sizes of n=2000 for AUT and DPT, and n=1560 for META.
 
-### Overall Performance (AUC)
+| Task | Gemini | Nemotron | Ensemble |
+|------|--------|----------|----------|
+| Alternative Uses (AUT) | 0.845 | 0.823 | **0.888** |
+| Design Problems (DPT) | 0.906 | 0.773 | **0.926** |
+| Metaphor Completion (META) | 0.855 | 0.901 | **0.914** |
 
-Evaluated on balanced datasets (50% valid, 50% invalid): AUT n=2000, DPT n=2000, META n=1560.
-
-| Task | Gemini | NVIDIA | Ensemble | Best |
-|------|--------|--------|----------|------|
-| AUT | 0.845 | 0.823 | **0.888** | Ensemble |
-| DPT | 0.906 | 0.773 | **0.926** | Ensemble |
-| META | 0.855 | **0.901** | 0.914 | NVIDIA |
-
-*Ensemble = normalized average of Gemini + NVIDIA scores.*
-
-**AUC interpretation**: 0.92 means if you randomly pick one valid and one invalid response, the scorer correctly ranks the valid one higher 92% of the time.
+*Ensemble: normalized average of Gemini and Nemotron scores.*
 
 ### Key Findings
 
-1. **Task-specific prompts are essential.** Gemini with task-specific validity prompts (AUC 0.85–0.91) dramatically outperforms generic quality assessment (AUC ~0.76 in earlier experiments).
+1. **Task-specific prompts are essential.** Custom prompts improve AUC by 0.10–0.15 compared to generic quality assessment.
 
-2. **Different methods excel at different tasks.** Gemini is best for divergent thinking tasks (AUT, DPT), while NVIDIA excels at metaphor completion where fluency and coherence matter more.
+2. **Different models excel at different tasks.** Gemini performs best on divergent thinking tasks (AUT, DPT), while the reward model excels at metaphor completion where fluency and coherence are more diagnostic.
 
-3. **Ensemble provides robust performance.** Combining Gemini + NVIDIA achieves 0.89–0.93 AUC across all tasks, better than either method alone.
+3. **Ensemble scoring provides robust performance.** Combining both models achieves 0.89–0.93 AUC across all tasks, consistently outperforming either model alone.
 
-4. **Perplexity is unsuitable for invalid detection.** Invalid responses (misspellings, nonsense) have HIGH perplexity, while we need LOW scores for invalid. Perplexity is better suited for detecting generic/clichéd responses, not invalid ones.
+4. **Human labels contain noise.** Analysis of false positives reveals that many flagged "valid" responses are legitimately low-quality (e.g., primary uses instead of alternative uses, literal completions instead of figurative metaphors).
 
-5. **Ground truth labels are noisy.** Many "false positives" are legitimately low-quality responses (primary uses instead of alternative uses, literal instead of figurative). The model may be more correct than human labels in ~50% of disagreement cases.
-
-## Data
-
-### Datasets
-
-Each task directory contains:
-
-| File | Contents | Invalid Rate |
-|------|----------|--------------|
-| `train_stratified.csv` | Human-labeled only | ~5% natural |
-| `train_stratified_augmented.csv` | Human + synthetic invalids | 50% balanced |
-
-The **augmented** dataset combines:
-- **Human-labeled ground truth**: Original responses with human validity labels
-- **Synthetic invalids**: Rule-based augmentations applied to valid responses
-
-### Augmentation Types
-
-| Type | Transformation | Example |
-|------|---------------|---------|
-| `dont_know` | Replace with refusal | "idk", "n/a", "I don't know" |
-| `misspell` | Character corruption | "doorstop" → "dorsto" |
-| `strip` | Truncate | "use as doorstop" → "use as" |
-| `nonsensical` | Random word substitution | "doorstop" → "neptunium wall" |
-| `wrong_task` | Swap with different prompt's response | Valid but mismatched |
-
-The `source` column in output files tracks which augmentation was applied (empty = original human data).
-
-## Usage
-
-### Setup
+## Installation
 
 ```bash
-cd quality/invalids
+git clone https://github.com/rebeaty/invalids.git
+cd invalids
 pip install -r requirements.txt
 ```
 
-Create `.env` with API keys:
+Create a `.env` file with your API credentials:
 ```
-GEMINI_API_KEY=your-key
-NVIDIA_API_KEY=nvapi-xxx
+GEMINI_API_KEY=your-gemini-api-key
+NVIDIA_API_KEY=your-nvidia-api-key
 ```
 
-### Running
+## Usage
 
 ```bash
-# Test run (200 samples per task, ~5 min)
-python score_invalid_v4.py --task all --limit 200
+# Score all tasks (limited sample for testing)
+python score_invalid_v5.py --task all --limit 200
 
-# Full dataset (all data, ~1-2 hours depending on size)
-python score_invalid_v4.py --task all --limit 0
+# Score full dataset
+python score_invalid_v5.py --task all --limit 0
 
-# Single task
-python score_invalid_v4.py --task meta
+# Score a single task
+python score_invalid_v5.py --task aut
 
-# Gemini only (fastest)
-python score_invalid_v4.py --task all --skip-nvidia --skip-ppl
-
-# Original (non-augmented) data
-python score_invalid_v4.py --task aut --original
+# Use only Gemini (faster, no NVIDIA API required)
+python score_invalid_v5.py --task all --skip-nvidia --skip-ppl
 ```
 
 ### Command Line Options
 
 | Option | Description | Default |
 |--------|-------------|---------|
-| `--task {aut,dpt,meta,all}` | Which task(s) to score | `aut` |
-| `--limit N` | Max rows per task (0 = all) | 200 |
+| `--task {aut,dpt,meta,all}` | Task(s) to score | `aut` |
+| `--limit N` | Maximum rows per task (0 for all) | 200 |
 | `--original` | Use original data instead of augmented | augmented |
-| `--skip-gemini` | Skip Gemini scorer | run |
-| `--skip-nvidia` | Skip NVIDIA scorer | run |
-| `--skip-ppl` | Skip perplexity scorer | run |
+| `--skip-gemini` | Skip Gemini scoring | enabled |
+| `--skip-nvidia` | Skip Nemotron scoring | enabled |
+| `--skip-ppl` | Skip perplexity scoring | enabled |
 | `--workers N` | Parallel API workers | 10 |
-| `--rps N` | API rate limit (requests/sec) | 2.0 |
+| `--rps N` | API rate limit (requests/second) | 2.0 |
 
 ## Output
 
-### Files Generated
+### Generated Files
 
-**Per-task scored data:**
+Per-task scored data:
 ```
-aut/aut_scored_augmented_v4.csv
-dpt/dpt_scored_augmented_v4.csv
-meta/meta_scored_augmented_v4.csv
+aut/aut_scored_augmented_v5.csv
+dpt/dpt_scored_augmented_v5.csv
+meta/meta_scored_augmented_v5.csv
 ```
 
-**Cross-task summary:**
+Cross-task summary:
 ```
-results_summary_augmented_v4.csv
+results_summary_augmented_v5.csv
 ```
 
 ### Output Columns
 
 | Column | Type | Description |
 |--------|------|-------------|
-| `gemini_quality` | int 1-5 | Quality rating (higher = more valid) |
-| `gemini_rationale` | str | Model's explanation |
-| `nvidia_reward` | float | Helpfulness score (higher = more valid) |
-| `perplexity` | float | GPT-2 surprisingness (higher = more likely invalid) |
-| `source` | str | Augmentation type or "original" |
+| `gemini_quality` | int (1–5) | Validity rating from Gemini |
+| `gemini_rationale` | string | Model explanation for the rating |
+| `nvidia_reward` | float | Helpfulness score from Nemotron |
+| `perplexity` | float | GPT-2 perplexity score |
+| `source` | string | Augmentation type or "original" |
 
-### Console Output
+## Data
 
-The script reports AUC, Spearman correlation, and F1 for each scorer:
+### Dataset Structure
 
-```
-Gemini Quality (1-5):
-  AUC: 0.920 | Spearman: -0.755 | F1: 0.864
-  n=200 (valid=100, invalid=100)
-  Mean quality by label:
-    Valid (label=0): 3.30
-    Invalid (label=1): 1.53
-```
+Each task directory contains:
 
-## Directory Structure
+| File | Description |
+|------|-------------|
+| `train_stratified.csv` | Original human-labeled responses (~5% invalid) |
+| `train_stratified_augmented.csv` | Balanced dataset with synthetic invalid responses (50% invalid) |
 
-```
-invalids/
-├── score_invalid_v4.py           # Main script (use this)
-├── score_invalid.py              # v1: binary (deprecated)
-├── score_invalid_v2.py           # v2: task-specific binary (deprecated)
-├── score_invalid_v3.py           # v3: JSON schema (deprecated)
-├── .env                          # API keys (not in git)
-├── requirements.txt
-├── README.md
-├── results_summary_augmented_v4.csv
-│
-├── aut/
-│   ├── train_stratified.csv           # Original human data
-│   ├── train_stratified_augmented.csv # Human + synthetic
-│   └── aut_scored_augmented_v4.csv    # Output
-│
-├── dpt/
-│   └── ...
-│
-└── meta/
-    ├── train_stratified_augmented.csv
-    ├── Metaphor_Rated_Data_Cleaned.csv  # Raw source
-    ├── generate_data.py                  # Data prep script
-    └── README.md
-```
+### Synthetic Invalid Generation
 
-## Troubleshooting
+To create balanced evaluation data, valid responses were augmented with synthetic invalid responses:
 
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| "Both GOOGLE_API_KEY and GEMINI_API_KEY are set" | Multiple env vars | Harmless warning |
-| Perplexity n < total | BPE tokenization | Normal for short responses |
-| NVIDIA 429 errors | Rate limit | Reduce `--workers` or `--rps` |
-| `gemini_quality` is None | API error | Check key/quota |
+| Type | Transformation |
+|------|---------------|
+| Refusal | Replace with "idk", "n/a", "I don't understand" |
+| Misspelling | Introduce character-level corruption |
+| Truncation | Cut response mid-sentence |
+| Nonsense | Replace with random word combinations |
+| Wrong task | Swap with response from different prompt |
 
-## Version History
+## Recommended Usage
 
-| Version | Change | META AUC |
-|---------|--------|----------|
-| v1 | Binary valid/invalid, generic prompt | 0.56 |
-| v2 | Task-specific binary prompts | 0.56 |
-| v3 | Native JSON schema with CoT | 0.58 |
-| v4 | 1-5 quality scale, task-specific | 0.89 |
-| **v5** | **Full-scale evaluation, ensemble scoring** | **0.914** |
+For production filtering:
 
-## Intended Use
+1. **AUT and DPT tasks**: Use Gemini with threshold ≤2
+2. **Metaphor completion**: Use Nemotron reward model or ensemble
+3. **All tasks**: Ensemble scoring provides the most robust performance
 
-This tool is designed as a **data filter**, not a benchmark metric. The goal is to automatically flag invalid responses for exclusion before computing creativity scores (originality, fluency, etc.)—not to score creativity itself.
-
-**Workflow:**
-1. Run scorer on raw response data
-2. Flag responses below threshold (e.g., `gemini_quality <= 2`)
+Typical workflow:
+1. Run scorer on response data
+2. Flag responses with `gemini_quality ≤ 2` as invalid
 3. Exclude flagged responses from downstream analysis
-4. Optionally: manual review of borderline cases (`gemini_quality == 2-3`)
+4. Optionally review borderline cases (`gemini_quality = 3`)
 
-## Recommendations
+## Citation
 
-**For production use:**
-- Use Gemini with threshold ≤2 as the primary filter for AUT and DPT tasks
-- Use NVIDIA reward model for metaphor completion, or ensemble everywhere
-- Accept ~15-30% filtering rate on "valid" data—many are legitimately low-effort
-- Drop perplexity from invalid detection (keep for creativity scoring if needed)
+If you use this tool in your research, please cite:
 
-**For future work:**
-- Conduct bias analysis comparing human vs. AI response quality distributions
-- Extend to additional creativity tasks (scientific creativity, short stories)
-- Consider manual review of edge cases to refine ground truth labels
+```
+@misc{invalids2025,
+  author = {Beaty, Roger},
+  title = {Invalid Response Detection for Creativity Assessments},
+  year = {2025},
+  publisher = {GitHub},
+  url = {https://github.com/rebeaty/invalids}
+}
+```
 
 ## References
 
-- Laverghetta et al., *Automated Detection of Invalid Responses in Open-Ended Creativity Assessments*
-- Boussioux et al., *The Artificial Hivemind* (reward model + perplexity methodology)
+- Beaty, R. E., & Johnson, D. R. (2021). Automating creativity assessment with SemDis: An open platform for computing semantic distance. *Behavior Research Methods*, 53, 757-780.
+- Boussioux, L., et al. (2024). The Crowdless Future? Generative AI and Creative Problem-Solving. *Harvard Business School Working Paper*.
+
+## License
+
+MIT License
