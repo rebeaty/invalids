@@ -181,7 +181,6 @@ For metaphor completion, consider using `nvidia_reward` or the ensemble instead 
 This work builds on approaches from:
 
 - Laverghetta Jr., A., Luchini, S. A., Pronchick, J., & Beaty, R. E. (in prep). *Automated Detection of Invalid Responses to Creativity Assessments.* — finetuned TLM approach and augmentation strategy
-- Doshi & Hauser (2024). *Generative AI enhances individual creativity but reduces the collective diversity of novel content.* — perplexity and reward model scoring for creativity
 
 ## License
 
