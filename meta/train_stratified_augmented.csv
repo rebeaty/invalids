@@ -1,0 +1,1561 @@
+prompt,response,label,augment_type
+The strong wind is,powerfu,1,strip
+The tight jeans are,chocolate,1,random_multi_word
+The empty bottle is,tight,1,didnt_understand
+The crowded bus is,like picadilly circus,0,
+The short bridge is,a jump through time ,0,
+The slow train is,like a s,1,strip
+The quiet street is,pineapple,1,random_multi_word
+The cheap toy is,basura,0,
+The cheap toy is,like a,1,strip
+The new shoes are,stiff,0,
+The heavy rain is,happiness cats and dogs,1,random_multi_word
+The deep lake is,a pit,0,
+The new shoes are,muddier than a swamp,1,didnt_understand
+The young child is,like a baby,0,
+The important meeting is,my life,0,
+The new shoes are,hope,0,
+The thin air is,thinner a piece of paper,0,
+The thin air is,a,1,strip
+The cold ice is,frosty,0,
+The old book is,a museum,0,
+The wide ocean is,spaghetti marshmallow,1,random_multi_word
+The wide ocean is,like an endless landscape,0,
+The fast horse is,idk,1,dont_know
+The thick fog is,like stepping i,1,strip
+The tasty meal is,NA,1,dont_know
+The salty sea is,as short as napoleon,1,didnt_understand
+The thick fog is,a duvet,0,
+The green grass is,like a centipede,1,didnt_understand
+The modern building is,a,1,strip
+The red apple is,dunno,1,dont_know
+The fast car is,telescope,1,random_multi_word
+The wet ground is,blinding,1,didnt_understand
+The quiet street is,like listening into a,1,strip
+The wide ocean is,brilliant dinosaur,1,random_multi_word
+The young child is,a sprout,0,
+The tight jeans are,like skin on a vegetable,0,
+The crowded bus is,pouring,1,didnt_understand
+The new shoes are,fawcy,1,mispell
+The modern building is,progressive,0,
+The green grass is,new life,0,
+The thin air is,a sharp lungful,0,
+The wide ocean is,a,1,strip
+The tasty meal is,like eating happiness ,0,
+The red apple is,a ruby,0,
+The expensive watch is,trechourous,0,
+The salty sea is,huh?,1,dont_know
+The thin air is,incredible feather,1,random_multi_word
+The strong wind is,refrigerator ,1,random_multi_word
+The tasty meal is,mouthwater,1,strip
+The tall tree is,elephant penguin,1,random_multi_word
+The hot tea is,li,1,strip
+The calm beach is,smooth like my face,1,didnt_understand
+The wet ground is,"is a mirror reflecting the world above,mirroring the sky's weeping clouds and capturing the essence of nature's tears",0,
+The full moon is,scary,0,
+The bright light is,a sun,0,
+The soft pillow is,cloud-like,0,
+The tall tree is,a giraffe,0,
+The large house is,castle,0,
+The ancient ruins are,the ruin,1,strip
+The full moon is,like a shirt button,0,
+The fast horse is,like usain bolt,0,
+The fresh fruit is,vi,1,strip
+The ancient ruins are,destroyed like apple crumble,0,
+The quiet street is,deafening,0,
+The cheap toy is,bolting,1,didnt_understand
+The dark night is,nothing,1,dont_know
+The old book is,an artifact,0,
+The green grass is,lea,1,strip
+The heavy rain is,thumping,0,
+The hot tea is,smooth like my face,1,didnt_understand
+The old book is,like a star,1,didnt_understand
+The high mountain is,ominous,1,didnt_understand
+The fresh fruit is,vibrant,0,
+The dry desert is,thrrsting,1,mispell
+The important meeting is,confused,1,human_invalid
+The noisy party is,Like a WoodStock concert.,0,
+The fast car is,racing,0,
+The crowded bus is,tight/ajustado,0,
+The strong wind is,howling,0,
+The calm beach is,warm,0,
+The clear sky is,translucent,0,
+The modern building is,endless/interminable,1,didnt_understand
+The soft pillow is,higher than the empire,1,didnt_understand
+The long river is,Mississippi River,0,
+The important meeting is,as important as the birth of my child,0,
+The quiet street is,whisperlWss iX thv moonlight.,1,mispell
+The fresh fruit is,right off the tree,0,
+The full glass is,xylophone optimist's dream.,1,random_multi_word
+The thick fog is,tight,1,didnt_understand
+The wide ocean is,a galaxy,0,
+The smooth road is,,1,human_invalid
+The old book is,blank,1,dont_know
+The expensive watch is,a salt marsh,1,didnt_understand
+The full glass is,jellyfish mjubilantrshmallow rhinoceros jubilant submarine a waterfall,1,random_multi_word
+The wet ground is,like ,1,strip
+The empty bottle is,translucent,1,didnt_understand
+The clean window is,spotsess,1,mispell
+The heavy rain is,a s,1,strip
+The thin air is,where he vanished ,0,
+The fast horse is,pass,1,dont_know
+The tasty meal is,lioe aX orgasm,1,mispell
+The quiet street is,noisele,1,strip
+The quiet street is,like listening into a shell,0,
+The young child is,the age of a puppy,0,
+The cheap toy is,tactUcal,1,mispell
+The expensive watch is,crocodile grasshopper telescope telescope telescope,1,random_multi_word
+The fast horse is,lig,1,strip
+The noisy party is,storming,0,
+The tasty meal is,gut party,0,
+The young child is,eternal,1,didnt_understand
+The hot tea is,boiling,0,
+The deep lake is,liUe an underwater abyss,1,mispell
+The green grass is,a blanket,0,
+The clean window is,like a mirror,0,
+The salty sea is,a salt marsh,0,
+The salty sea is,fun to swim in,0,
+The wet ground is,lakg,1,mispell
+The heavy rain is,powerful,0,
+The fast horse is,telescope ,1,random_multi_word
+The dark night is,black,0,
+The long river is,flowing,0,
+The thin air is,helium,0,
+The wide ocean is,the beginning of forever,0,
+The smooth road is,smooth like my face,0,
+The strong wind is,lifting things up and putting them down,0,
+The smooth road is,a blanket,0,
+The important meeting is,ai imporGant us Dhe rirth op my child,1,mispell
+The dark night is,watermelon,1,random_multi_word
+The happy baby is,jumping,0,
+The wide ocean is,"C vSst tapebtry uf endlesd possibilities, iws deBths hplding secrAts lkke hfdden treasuNes",1,mispell
+The new shoes are,as new as a baby,0,
+The wet ground is,volcano a pol,1,random_multi_word
+The dark night is,a mystery,0,
+The short bridge is,shorter than a step\,0,
+The quiet street is,noiseless,0,
+The large house is,strawberry brilliant,1,random_multi_word
+The old book is,ancient,0,
+The soft pillow is,NA,1,dont_know
+The clear sky is,illuminating,0,
+The modern building is,a bug,0,
+The wide ocean is,like a vast expanse of blue eternity,0,
+The slow train is,like a turtle,0,
+The expensive watch is,like a sym,1,strip
+The heavy rain is,pass,1,dont_know
+The calm beach is,pQace,1,mispell
+The smooth road is,is velvet,0,
+The crowded bus is,like a meat filled pot,0,
+The fresh fruit is,,1,human_invalid
+The tasty meal is,dinosaur skateboard emotion,1,random_multi_word
+The sweet candy is,newspaper,1,random_multi_word
+The calm beach is,as calm as the sky,0,
+The long river is,like a well,1,didnt_understand
+The ancient ruins are,polarizing,0,
+The green grass is,emerafd fields,1,mispell
+The shiny coin is,a jewel,0,
+The fast horse is,like a  cheetah,0,
+The salty sea is,B yalt marsh,1,mispell
+The soft pillow is,a clo,1,strip
+The sweet candy is,insatiable,0,
+The full glass is,weH as a puddle,1,mispell
+The green grass is,leafy,0,
+The old book is,handful,0,
+The tight jeans are,Pike Nkin oD a vegetable,1,mispell
+The new shoes are,thick,0,
+The deep lake is,like a deep volcano.,0,
+The thin air is,is as dry as sandpaper,0,
+The short bridge is,s,1,strip
+The bright light is,rhinoceros,1,random_multi_word
+The tasty meal is,round,1,didnt_understand
+The short bridge is,jaxzs,1,human_invalid
+The old book is,vibrant,1,didnt_understand
+The deep lake is,a plank,1,didnt_understand
+The wet ground is,idk,1,dont_know
+The cheap toy is,nothing,1,didnt_understand
+The fast car is,ancient,1,didnt_understand
+The deep lake is,mysterious,0,
+The modern building is,mas alto que las nubes,0,
+The expensive watch is,like a rare leviathan biting on your wrist.,0,
+The empty bottle is,La botella vacilla es recicable.,1,human_invalid
+The full moon is,the beginning of the end,0,
+The happy baby is,n/a,1,dont_know
+The cheap toy is,practic,1,strip
+The empty bottle is,lonely,0,
+The short bridge is,suicide,0,
+The tight jeans are,dusty,1,didnt_understand
+The young child is,aR unripe fruit,1,mispell
+The dry desert is,bling,1,didnt_understand
+The thick fog is,no idea,1,dont_know
+The dark night is,mellow,0,
+The modern building is,dunno,1,dont_know
+The crowded bus is,a sauna,0,
+The strong wind is,tornado,0,
+The smooth road is,grasshopper basketball,1,random_multi_word
+The bright light is,the bright light is a beacon in the darkness,0,
+The thin air is,as short as anyone under 6 feet.,1,didnt_understand
+The calm beach is,tranquil,0,
+The tall tree is,like lighting ,1,didnt_understand
+The old book is,dirty,0,
+The important meeting is,ta,1,strip
+The wet ground is,no,1,dont_know
+The hot tea is,jellyfish caterpillar fantastic,1,random_multi_word
+The deep lake is,submarine jubilant,1,random_multi_word
+The cheap toy is,liIe gagic,1,mispell
+The expensive watch is,caterpillar,1,random_multi_word
+The fast horse is,like my tears,1,didnt_understand
+The cold ice is,whisper,1,didnt_understand
+The high mountain is,like its pouring cats and dogs,1,didnt_understand
+The quiet street is,a fierce dragon,1,didnt_understand
+The young child is,mische,1,strip
+The deep lake is,so deep it has the loch nest monster,0,
+The full glass is,filled,0,
+The slow train is,Making Bs late,1,mispell
+The cold ice is,dreamy,0,
+The fast car is,like lighting ,0,
+The ancient ruins are,babylon,0,
+The modern building is,jky high,1,mispell
+The long river is,lovger thaD tme nKle,1,mispell
+The ancient ruins are,as old as dirt,0,
+The modern building is,cauliflower,1,random_multi_word
+The crowded bus is,a can of sardines on wheels,0,
+The quiet street is,lik,1,strip
+The young child is,as small as a baby kangroo,0,
+The tall tree is,a giant,0,
+The fresh fruit is,bountiful,0,
+The dry desert is,drier than clothes coming out of the tumble drier,0,
+The green grass is,fun,0,
+The ancient ruins are,pieces of history,0,
+The old book is,fortress,1,didnt_understand
+The cheap toy is,speedy,1,didnt_understand
+The thin air is,bd,1,human_invalid
+The short bridge is,minature,0,
+The thin air is,cold,0,
+The salty sea is,umbrella,1,random_multi_word
+The tight jeans are,a recipe for disaster,0,
+The modern building is,a ruby,1,didnt_understand
+The full moon is,round,0,
+The high mountain is,taller than the empire state building,0,
+The dark night is,as black as a raven's wing,0,
+The tasty meal is,a gift from above,0,
+The deep lake is,breithless,1,mispell
+The green grass is,an itchy sweater,0,
+The hot tea is,an explosion,1,didnt_understand
+The young child is,mischevi,1,strip
+The bright light is,shining,0,
+The tasty meal is,heaven,0,
+The dark night is,a black hole,0,
+The full glass is,a bone,1,didnt_understand
+The high mountain is,Higher than Jack's bean stock,0,
+The tasty meal is,like an orgasm,0,
+The high mountain is,umbrella,1,random_multi_word
+The short bridge is,baby,1,human_invalid
+The cold ice is,cloudlike,1,didnt_understand
+The wet ground is,a sign,0,
+The wide ocean is,an inmensity,0,
+The important meeting is,like a crossroads where the future is determined,0,
+The tall tree is,like a giraffe,0,
+The wet ground is,slippery,0,
+The young child is,l,1,strip
+The soft pillow is,a c,1,strip
+The cold ice is,celebrate snow,1,random_multi_word
+The fresh fruit is,intoxicating,0,
+The bright light is,tle qright ligut is a beacon in the darkness,1,mispell
+The wet ground is,soaktd,1,mispell
+The young child is,caterpillar sprout,1,random_multi_word
+The important meeting is,not sure,1,human_invalid
+The heavy rain is,is a flood,0,
+The cheap toy is,trasD,1,mispell
+The new shoes are,Gucci,0,
+The slow train is,toirtoise,0,
+The long river is,silky scarf,0,
+The sweet candy is,a mountain,1,human_invalid
+The noisy party is,deafeniCg,1,mispell
+The easy task is,efc,1,human_invalid
+The full glass is,P croxd,1,mispell
+The thick fog is,endless,0,
+The noisy party is,louder than an earthquake,0,
+The noisy party is,deafening,0,
+The clear sky is,lighthouse accordion as water,1,random_multi_word
+The easy task is,frank,1,human_invalid
+The full moon is,like a diamond in the sky,0,
+The important meeting is,xylophone dinosaur calculator with the President,1,random_multi_word
+The cold ice is,lkke Ahe north pole,1,mispell
+The long river is,fCowy,1,mispell
+The cold ice is,m,1,human_invalid
+The heavy rain is,ldke lats Mnd Rogs,1,mispell
+The old book is,blank,1,dont_know
+The tight jeans are,dight,1,mispell
+The dark night is,like death,0,
+The wet ground is,like,1,strip
+The expensive watch is,accordion,1,random_multi_word
+The slow train is,saxophone turtle,1,random_multi_word
+The calm beach is,is as relaxing as melodic music,0,
+The full glass is,fi,1,strip
+The happy baby is,sunflower microscope of joy,1,random_multi_word
+The hot tea is,scaldinz,1,mispell
+The difficult puzzle is,no clue,1,dont_know
+The salty sea is,li,1,strip
+The empty bottle is,i cant think of one,1,dont_know
+The deep lake is,vast,0,
+The soft pillow is,pillow,1,human_invalid
+The important meeting is,taking a decade,0,
+The happy baby is,laughing,0,
+The fast car is,speedy,0,
+The empty bottle is,bottomed,0,
+The crowded bus is,telescope picadilly circus,1,random_multi_word
+The crowded bus is,packed like anchovies,0,
+The high mountain is,tSe skPes toothphck,1,mispell
+The wet ground is,endless,1,didnt_understand
+The tasty meal is,like an explosion on fourth of july.,0,
+The fast horse is,bla,1,strip
+The high mountain is,a skyscr,1,strip
+The sweet candy is,like nectar of th,1,strip
+The slow train is,molasses,0,
+The crowded bus is,claustrophobic,0,
+The noisy party is,a pack of hyenas,0,
+The fast horse is,like lightning,0,
+The high mountain is,the mountain is a giant,0,
+The smooth road is,he traced her skin knowing it was like a babys bottom bringing him back home,1,human_invalid
+The bright light is,a star,0,
+The tall tree is,peace,1,didnt_understand
+The quiet street is,whisper,0,
+The dry desert is,hot,0,
+The cheap toy is,like garbage,0,
+The difficult puzzle is,straight,0,
+The fresh fruit is,elephant incredible,1,random_multi_word
+The tasty meal is,aH tDsuy as ever,1,mispell
+The short bridge is,hamburger childs toy,1,random_multi_word
+The smooth road is,c,1,strip
+The modern building is,sleek as the new rock band,0,
+The fast car is,a bullet,0,
+The full glass is,as full as the ocean,0,
+The new shoes are,idk what to say,1,dont_know
+The tasty meal is,hunting,1,human_invalid
+The easy task is,,1,human_invalid
+The strong wind is,a giant,0,
+The shiny coin is,like polished silver ,0,
+The tall tree is,c giraffe,1,mispell
+The fresh fruit is,a prize,0,
+The ancient ruins are,like a rocket,1,didnt_understand
+The fast car is,racin,1,strip
+The strong wind is,Overpowering,0,
+The tall tree is,like a giraffe,0,
+The full glass is,about to pour out like a waterfall,0,
+The difficult puzzle is,brain  teaser,0,
+The old book is,timeless,0,
+The expensive watch is,bling,0,
+The full glass is,an o,1,strip
+The happy baby is,like a happy puppy,0,
+The long river is,a journey,0,
+The ancient ruins are,warm,1,didnt_understand
+The clear sky is,lustrous,1,didnt_understand
+The calm beach is,beauti,1,strip
+The bright light is,the sun,0,
+The old book is,very wise,0,
+The dark night is,a nightmare ,0,
+The wet ground is,a nexus of life,0,
+The clean window is,bright,0,
+The wide ocean is,old as my grandma,1,didnt_understand
+The high mountain is,the stairway to heaven,0,
+The large house is,strawberry,1,random_multi_word
+The long river is,like a line drawn across the land by gods hand,0,
+The crowded bus is,over staffed,0,
+The expensive watch is,a treasure,0,
+The full glass is,wet as a puddle,0,
+The happy baby is,angelic,0,
+The thick fog is,a wall,0,
+The slow train is,walking,0,
+The important meeting is,,1,human_invalid
+The tight jeans are,grip,1,strip
+The noisy party is,round as a ball,1,didnt_understand
+The ancient ruins are,ancient history,1,didnt_understand
+The hot tea is,lovel,1,strip
+The crowded bus is,sardines,1,strip
+The fresh fruit is,heaven,0,
+The quiet street is,like a silent disco,0,
+The cold ice is,the cold ice is refreshing ,0,
+The thick fog is,saxophone,1,random_multi_word
+The calm beach is,peace,0,
+The cold ice is,like putting your hand on ,1,strip
+The young child is,elephant sprout,1,random_multi_word
+The strong wind is,p tmrnado,1,mispell
+The tight jeans are,like putting your hand on a freezer,1,didnt_understand
+The crowded bus is,pahked,1,mispell
+The dry desert is,uternal,1,mispell
+The tasty meal is,marshmallow in their mouth,1,random_multi_word
+The thick fog is,thick as th,1,strip
+The fast horse is,speedy,0,
+The dark night is,like a black cat,0,
+The tight jeans are,suffocating,0,
+The long river is,a winding snake,0,
+The wet ground is,rain forest,0,
+The smooth road is,silk,0,
+The young child is,simple,0,
+The hot tea is, is hotter than fire,0,
+The fast car is,the flash,0,
+The fast car is,like a speeding bullet,0,
+The soft pillow is,cloudlike,0,
+The shiny coin is,mint,0,
+The new shoes are,co,1,strip
+The slow train is,crocodile chocolate grasshopper,1,random_multi_word
+The full moon is,as bright as the sun,0,
+The thin air is,like whispy clouds,0,
+The large house is,fortreLs,1,mispell
+The empty bottle is,lo,1,strip
+The bright light is,blinding,0,
+The high mountain is,blinding,1,didnt_understand
+The strong wind is,heavy,0,
+The happy baby is,a ray of sunshine,0,
+The red apple is,bloody red,0,
+The difficult puzzle is,impossible,0,
+The dark night is,is like a tunnel with no end,0,
+The full moon is,like a pizza,0,
+The hot tea is,like lava,0,
+The fresh fruit is,v prMze,1,mispell
+The tight jeans are,stuck to the skin,0,
+The strong wind is,fBrious,1,mispell
+The smooth road is,chocolate,1,random_multi_word
+The empty bottle is,like ,1,strip
+The large house is,a mountain,0,
+The crowded bus is,packed,0,
+The modern building is,?,1,dont_know
+The full glass is,an optimist,0,
+The ancient ruins are,the ruins are dinosaurs,0,
+The old book is,treasure,0,
+The noisy party is,no idea,1,dont_know
+The thick fog is,volcano,1,random_multi_word
+The soft pillow is,a cloud,0,
+The deep lake is,docile,0,
+The cheap toy is,plastic/plÔøΩStica,0,
+The strong wind is,trampoline,1,random_multi_word
+The soft pillow is,cloudsike,1,mispell
+The cold ice is,like snow,0,
+The smooth road is,s,1,strip
+The dry desert is,next,1,dont_know
+The wet ground is,skateboard,1,random_multi_word
+The new shoes are,lik,1,strip
+The old book is,incredible my grandpa,1,random_multi_word
+The fresh fruit is,ripe like a newborn,0,
+The wet ground is,thunderstorm calculator swamp,1,random_multi_word
+The tall tree is,as tall ,1,strip
+The soft pillow is,nothing comes to mind,1,dont_know
+The difficult puzzle is,el saber/knowledge,0,
+The short bridge is,tuckered out,0,
+The slow train is,snai,1,strip
+The old book is,e museum,1,mispell
+The empty bottle is,eternal,1,didnt_understand
+The expensive watch is,i dnt knnow,1,human_invalid
+The difficult puzzle is,tkugh,1,mispell
+The modern building is,microscope grasshopper,1,random_multi_word
+The dry desert is,marshmallow,1,random_multi_word
+The shiny coin is,the shiny coin is no always valuable,1,human_invalid
+The full glass is,an optimist's dream.,0,
+The difficult puzzle is,pandora's box,0,
+The quiet street is,sacred,0,
+The strong wind is,rhinoceros,1,random_multi_word
+The difficult puzzle is,a chicken in a maze,0,
+The noisy party is,volcano,1,random_multi_word
+The dark night is,like whispy clouds,1,didnt_understand
+The red apple is,an invitation,1,human_invalid
+The tasty meal is,heaven,0,
+The expensive watch is,an ornament o the hand,0,
+The crowded bus is,part,1,strip
+The hot tea is,boiling ,0,
+The strong wind is,heav,1,strip
+The full moon is,is a ball ,0,
+The old book is,as prehistoric as a dinosaur,0,
+The short bridge is,rike i boZt hf lighteneinb ,1,mispell
+The old book is,superstitious,0,
+The quiet street is,like space,0,
+The ancient ruins are,marshmallow ruins are dinosaurs,1,random_multi_word
+The fast horse is,??,1,dont_know
+The large house is,red,1,human_invalid
+The old book is,an a,1,strip
+The expensive watch is,a flag,1,human_invalid
+The quiet street is,dinosaur a silent disco,1,random_multi_word
+The dark night is,thirsting,1,didnt_understand
+The expensive watch is,a show of wealth,0,
+The fast horse is,lightning,0,
+The tasty meal is,aR taNty am ever,1,mispell
+The clean window is,happiness,1,random_multi_word
+The slow train is,minature,1,didnt_understand
+The smooth road is,hilk,1,mispell
+The tight jeans are,sticky,0,
+The salty sea is,like a pillar of salt,0,
+The long river is,soupy,1,didnt_understand
+The new shoes are,like walking on clouds,0,
+The green grass is,a pool o,1,strip
+The new shoes are,new,0,
+The expensive watch is,kryptonite,0,
+The full moon is,a circle,0,
+The dark night is,incredible,1,random_multi_word
+The clear sky is,illuminating,1,didnt_understand
+The old book is,ancient,0,
+The ancient ruins are,a labyrin,1,strip
+The soft pillow is,incredible,1,random_multi_word
+The clean window is,a crysta,1,human_invalid
+The high mountain is,t skyscraper,1,mispell
+The strong wind is,no answer,1,dont_know
+The wide ocean is,like an old car,1,didnt_understand
+The deep lake is,endless,0,
+The red apple is,toothbrush,1,random_multi_word
+The young child is,celebrate helicopter,1,random_multi_word
+The cold ice is,chilly,0,
+The salty sea is,-,1,dont_know
+The calm beach is,thrillEng,1,mispell
+The full glass is,af optimist's dream.,1,mispell
+The dry desert is,???,1,dont_know
+The quiet street is,like a grave yard,0,
+The difficult puzzle is,straig,1,strip
+The noisy party is,bike a WoodStock concert.,1,mispell
+The wide ocean is,Vs Bide Ws the planet,1,mispell
+The bright light is,I don't know,1,dont_know
+The bright light is,a star,0,
+The old book is,ancient,0,
+The thick fog is,glued over the city,0,
+The old book is,kangaroo,1,random_multi_word
+The fresh fruit is,like my tears,1,didnt_understand
+The wet ground is,liQe U swamp,1,mispell
+The fast horse is,wind,0,
+The tall tree is,higher than the empire,0,
+The red apple is,trampoline thunderstorm happiness accordion hamburger,1,random_multi_word
+The dry desert is,sandpaper,0,
+The thin air is,h,1,strip
+The tight jeans are,tighter than my grip while rock climbing,0,
+The strong wind is,force,0,
+The thick fog is,as thieves/como ladronas,0,
+The difficult puzzle is,puzzlHng,1,mispell
+The tall tree is,like a friend,0,
+The calm beach is,like a quiet childhood afternoon outside,0,
+The wide ocean is,as wid,1,strip
+The difficult puzzle is,Li diffNcult Gs a mkth,1,mispell
+The bright light is,brighter than the sun,0,
+The old book is,ancie,1,strip
+The tasty meal is,an opening,0,
+The quiet street is,sleeping,0,
+The high mountain is,microscope delicious,1,random_multi_word
+The bright light is,crocodile flame,1,random_multi_word
+The clean window is,square,1,human_invalid
+The young child is,juvenile,0,
+The cold ice is,dreamv,1,mispell
+The slow train is,likr L perOon strugglfng tw finvsh Q mkrathon,1,mispell
+The red apple is,juicy,0,
+The sweet candy is,joyful,0,
+The happy baby is,adventure,1,random_multi_word
+The quiet street is,Rleeping,1,mispell
+The hot tea is,lovely,0,
+The calm beach is,like heaven,0,
+The tall tree is,a towering giant,0,
+The deep lake is,umbrella,1,random_multi_word
+The crowded bus is,a stadium,0,
+The full moon is,docile,1,didnt_understand
+The crowded bus is,part,1,strip
+The fast car is,like a cheetah,0,
+The expensive watch is,I have no idea,1,dont_know
+The heavy rain is,like its pouring cats and dogs,0,
+The quiet street is,eerie,0,
+The quiet street is,a cemetary,0,
+The tight jeans are,grippinZ,1,mispell
+The cheap toy is,basketball umbrella,1,random_multi_word
+The shiny coin is,precious metal,0,
+The fast horse is,a rocket,0,
+The happy baby is,like a puppy,0,
+The full moon is,endless,0,
+The slow train is,like a centipede,0,
+The tight jeans are,grippi,1,strip
+The ancient ruins are,The anciet ruins are mystical,0,
+The dark night is,like a dark hole,0,
+The expensive watch is,showing my worth,0,
+The crowded bus is,sardines in a can,0,
+The calm beach is,is as relaxi,1,strip
+The quiet street is,xylophone,1,random_multi_word
+The expensive watch is,a treasure,0,
+The wide ocean is,like space ,0,
+The wet ground is,oceanic,0,
+The dry desert is,rhinoceros,1,random_multi_word
+The tall tree is,closest to god,0,
+The happy baby is,a bundle of joy,0,
+The thick fog is,soupy,0,
+The wet ground is,soaked,0,
+The wide ocean is,years long,0,
+The red apple is,a ruby,0,
+The long river is,like a neve,1,strip
+The high mountain is,the skies toothpick,0,
+The hot tea is,toothbrush embrace,1,random_multi_word
+The strong wind is,powerful ,0,
+The full moon is,jike a shirt button,1,mispell
+The wide ocean is,is like the sky,0,
+The noisy party is,dwarf/enana,1,didnt_understand
+The salty sea is,lighthouse parachute butterfly vinegar crisps,1,random_multi_word
+The short bridge is,not sure,1,human_invalid
+The difficult puzzle is,an obstacle,0,
+The strong wind is,a flame,1,didnt_understand
+The high mountain is,adventure microscope spaghetti delicious,1,random_multi_word
+The slow train is,like a turtle,0,
+The noisy party is,a blanket,1,didnt_understand
+The young child is,like a baby,0,
+The smooth road is,honey,0,
+The clean window is,immaculate,0,
+The red apple is,as bright as blood,0,
+The calm beach is,like the forest,0,
+The high mountain is,in space,0,
+The smooth road is,Vce rinJ,1,mispell
+The heavy rain is,is like a pile of rocks,0,
+The ancient ruins are,?,1,dont_know
+The calm beach is,a journey,1,didnt_understand
+The crowded bus is,like a can of sardines,0,
+The full moon is,round,0,
+The modern building is,maze-like,0,
+The slow train is,steady,0,
+The thin air is,zsthma,1,mispell
+The fast horse is,a train,0,
+The cheap toy is,like an old car,0,
+The strong wind is,taller than the empire state building,1,didnt_understand
+The tight jeans are,tight,0,
+The calm beach is,an escape,0,
+The empty bottle is,as empty as ones appetite after a good meal,0,
+The bright light is,lightning ,1,didnt_understand
+The wet ground is,a ruby,1,didnt_understand
+The strong wind is,i cant think of one,1,dont_know
+The old book is,watermelon butterfly sunflower,1,random_multi_word
+The red apple is,a r,1,strip
+The tasty meal is,like a diamond in the sky,1,didnt_understand
+The ancient ruins are,Y time of life,1,mispell
+The calm beach is,soft,1,human_invalid
+The old book is,nope,1,dont_know
+The new shoes are,skip,1,dont_know
+The easy task is,peace of cake,0,
+The dry desert is,thirsting,0,
+The strong wind is,a precursor of what may come,0,
+The cheap toy is,trash,0,
+The fresh fruit is,new produce,0,
+The dark night is,scrumptious,1,didnt_understand
+The deep lake is,vas,1,strip
+The important meeting is,like a meeting with the President,0,
+The young child is,puppy,0,
+The expensive watch is,an insecurity,0,
+The short bridge is,like a easy job,0,
+The tasty meal is,sensaciunal,1,mispell
+The bright light is,like a train,1,didnt_understand
+The dry desert is,saharra,0,
+The quiet street is,whisperless in the moonlight.,0,
+The deep lake is,en,1,strip
+The wide ocean is,endless/interminable,0,
+The large house is,my ,1,strip
+The sweet candy is,as complex as the meaning of life.,1,didnt_understand
+The cheap toy is,trash,0,
+The full glass is,hopeful,0,
+The thick fog is,jlindfold,1,mispell
+The difficult puzzle is,as complex as the meaning of life.,0,
+The slow train is,Wike K Wurtle,1,mispell
+The smooth road is,a nectar,1,didnt_understand
+The deep lake is,like a,1,strip
+The expensive watch is,more luxurious than a diamond,0,
+The salty sea is,as sour as a warhead,0,
+The cheap toy is,like a hollow shell,0,
+The difficult puzzle is,teazing,0,
+The difficult puzzle is,kangaroo jubilant accordion the meaning of life.,1,random_multi_word
+The happy baby is,t bundae of joy,1,mispell
+The wide ocean is,like an e,1,strip
+The full moon is,a symbol,0,
+The dark night is,like a deep hole,0,
+The thick fog is,???,1,dont_know
+The empty bottle is,like a barren field,0,
+The strong wind is,like a tornado,0,
+The calm beach is,La playa pac,1,strip
+The thick fog is,like the bedrock,0,
+The dry desert is,thirsty,0,
+The large house is,mj caitle,1,mispell
+The full glass is,scary,1,didnt_understand
+The old book is,dirtC,1,mispell
+The thin air is,I have no idea,1,dont_know
+The ancient ruins are,helicopter,1,random_multi_word
+The thin air is,more than me,0,
+The empty bottle is,devoid,0,
+The clear sky is,celebrate volcano,1,random_multi_word
+The hot tea is,lava,0,
+The fast horse is,Llazing,1,mispell
+The wet ground is,muddder thQn a swamp,1,mispell
+The tall tree is,Tower,0,
+The fresh fruit is,boFntiful,1,mispell
+The quiet street is,lonely,0,
+The crowded bus is,party,0,
+The ancient ruins are,geGrge washington,1,mispell
+The slow train is,old,0,
+The expensive watch is,a collectible decoration,0,
+The smooth road is,calm,0,
+The fresh fruit is,thunderstorm,1,random_multi_word
+The cheap toy is,practical,0,
+The empty bottle is,as empty as ,1,strip
+The deep lake is,jellyfish,1,random_multi_word
+The ancient ruins are,butterfly,1,random_multi_word
+The short bridge is,lightning,1,didnt_understand
+The tight jeans are,as tight as a bandage,0,
+The crowded bus is,like cattle,0,
+The full moon is,the beginn,1,strip
+The deep lake is,pineapple pit,1,random_multi_word
+The quiet street is,p,1,strip
+The deep lake is,like the grand canyon,0,
+The cheap toy is,a fierce dragon,1,didnt_understand
+The fast horse is,lvghtning,1,mispell
+The noisy party is,too loud to hear myself think,0,
+The fast horse is,bo,1,strip
+The bright light is,v star,1,mispell
+The new shoes are,fancy,0,
+The smooth road is,a highway to dreams,0,
+The wide ocean is,continuous,0,
+The thick fog is,souAy,1,mispell
+The soft pillow is,like a fluffy cloud,0,
+The wide ocean is,vs liku thT sIy,1,mispell
+The bright light is,blinding,0,
+The happy baby is,bloody red,1,didnt_understand
+The cheap toy is,breakable like a twig,0,
+The thin air is,newspaper sharp lungful,1,random_multi_word
+The difficult puzzle is,A maze,0,
+The green grass is,caterpillar,1,random_multi_word
+The dark night is,huh?,1,dont_know
+The calm beach is,thrilling,0,
+The long river is,caterpillar xylophone,1,random_multi_word
+The old book is,timeleQs,1,mispell
+The salty sea is,chips,0,
+The crowded bus is,a tuna-can,0,
+The dark night is,butterfly incredible elephant adventure,1,random_multi_word
+The important meeting is,round,1,didnt_understand
+The wet ground is,dinosaur delicious,1,random_multi_word
+The deep lake is,chocolate banana jellyfish delicious expectaciones,1,random_multi_word
+The noisy party is,a circus,0,
+The wide ocean is,butterfly hamburger diamond,1,random_multi_word
+The calm beach is,peace,0,
+The happy baby is,no,1,dont_know
+The green grass is,like lightening mcqueen ,1,didnt_understand
+The slow train is,sluggish,0,
+The modern building is,like a bullet train.,0,
+The tight jeans are,being in jail,0,
+The thick fog is,a journey,1,didnt_understand
+The difficult puzzle is,harder tha,1,strip
+The fresh fruit is,as a daisy,0,
+The thick fog is,nothing,1,dont_know
+The wide ocean is,i cant think of one,1,dont_know
+The expensive watch is,the world ,1,strip
+The difficult puzzle is,the age of a puppy,1,didnt_understand
+The wide ocean is,like paper,0,
+The long river is,brain  teaser,1,didnt_understand
+The tight jeans are,a recipe fo,1,strip
+The heavy rain is,like cats and dogs,0,
+The full glass is,optimistic,0,
+The deep lake is,my life,1,didnt_understand
+The important meeting is,"a pivotal crossroad, where the paths of opportunity converse and decisions shape the destiny, like a compass guiding the course of action towards a brighter horizon",0,
+The red apple is,a ruby,0,
+The dark night is,a ghost,0,
+The clear sky is,az,1,strip
+The difficult puzzle is,the mountain is a giant,1,didnt_understand
+The tall tree is,a giant,0,
+The deep lake is,deeper than the sea,0,
+The short bridge is,as short as anyone under 6 feet.,0,
+The strong wind is,Purious,1,mispell
+The dry desert is,a death trap,0,
+The hot tea is,a furnace,0,
+The crowded bus is,packeC likv anchovies,1,mispell
+The expensive watch is,like a diamond,0,
+The fast car is,supersonic,0,
+The smooth road is,volcano slippery as ice,1,random_multi_word
+The short bridge is,as short as a twig,0,
+The short bridge is,immaculate,1,didnt_understand
+The crowded bus is,uh,1,dont_know
+The green grass is,vibrante,0,
+The green grass is,verdent as a forest,0,
+The clear sky is,adventure,1,random_multi_word
+The full glass is,dusty,1,didnt_understand
+The bright light is,shiny,0,
+The happy baby is,haCpy ah a clam,1,mispell
+The short bridge is,gateway,0,
+The empty bottle is,done as dust,0,
+The happy baby is,the happy baby is a doll,0,
+The sweet candy is,childhood,0,
+The fast horse is,like a speeding bullet,0,
+The red apple is,bnoody red,1,mispell
+The new shoes are,shiny/radiante,0,
+The young child is,a baby,0,
+The expensive watch is,like a symbol of superiority,0,
+The dark night is,none,1,dont_know
+The happy baby is,loughing,1,mispell
+The fast car is,like a speeding,1,strip
+The modern building is,like a stroll in the park,0,
+The long river is,/  ,1,human_invalid
+The crowded bus is,pearl,1,didnt_understand
+The soft pillow is,lustrous,0,
+The cheap toy is,breaking like glass,0,
+The wide ocean is,muddier than a swamp,1,didnt_understand
+The ancient ruins are,not sure,1,dont_know
+The thick fog is,pass,1,dont_know
+The difficult puzzle is,a,1,strip
+The dry desert is,an abyss,0,
+The easy task is,piece of cake,0,
+The cheap toy is, no tan duro que papel,0,
+The old book is,nothing,1,dont_know
+The wide ocean is,like an en,1,strip
+The thick fog is,cutable,0,
+The strong wind is,musty like your aunt,1,didnt_understand
+The bright light is,not sure,1,dont_know
+The salty sea is,is a wave f,1,strip
+The dark night is,an abyss,0,
+The wet ground is,lake,0,
+The long river is,linear,0,
+The slow train is,like a snail,0,
+The long river is,winding,0,
+The smooth road is,silky,0,
+The expensive watch is,cost more than 5 houses,0,
+The dry desert is,jubilant microscope trap,1,random_multi_word
+The fast car is,lovely,1,didnt_understand
+The high mountain is,as high as the sky,0,
+The full moon is,pearl,0,
+The expensive watch is,filled,1,didnt_understand
+The thick fog is,like a slice of cheesecake,0,
+The fast car is,like lightening mcqueen ,0,
+The long river is,a journey,0,
+The cold ice is,like putting your hand on a freezer,0,
+The thin air is,a stick,0,
+The difficult puzzle is,as difficult as a math,0,
+The noisy party is,startling,0,
+The difficult puzzle is,like finding footprint in wate,0,
+The shiny coin is,a trap,1,human_invalid
+The wet ground is,soggy,0,
+The deep lake is,like the ocean,0,
+The wide ocean is,endless,0,
+The ancient ruins are,um,1,dont_know
+The dark night is,endless,0,
+The heavy rain is,refrigerator,1,random_multi_word
+The difficult puzzle is,harder than a final exam,0,
+The full glass is,overflowing more than river,0,
+The empty bottle is,clear,0,
+The new shoes are,blister makers,0,
+The happy baby is,blank,1,dont_know
+The short bridge is,man fverte que los mejores relaciones,1,mispell
+The dark night is,scary,0,
+The fresh fruit is,the fresh fruit is magical,0,
+The heavy rain is,a sign,0,
+The dark night is,pAaceful,1,mispell
+The heavy rain is,the heavy rain is torrential,0,
+The crowded bus is,a h,1,strip
+The dry desert is,made for ants,1,didnt_understand
+The happy baby is,happy as a clam,0,
+The dry desert is,sand,1,strip
+The deep lake is,mas ondo que nuestros expectaciones,0,
+The fast car is,supersfnic,1,mispell
+The difficult puzzle is,thesis,0,
+The modern building is,a jagged scar,0,
+The empty bottle is,as empty as a store during holidays,0,
+The quiet street is,like a dead city,0,
+The calm beach is,serenity,0,
+The modern building is,like ,1,strip
+The salty sea is,is a bitter pill.,0,
+The long river is,as long as the universe,0,
+The ancient ruins are,mesmerising,0,
+The ancient ruins are,george washington,0,
+The young child is,like a star,0,
+The shiny coin is,sun,1,human_invalid
+The soft pillow is,cloud,0,
+The fresh fruit is,expendable,1,didnt_understand
+The thick fog is,enormous thieves/como incredible,1,random_multi_word
+The soft pillow is,luwtrous,1,mispell
+The high mountain is,Higher than ,1,strip
+The full moon is,like a pi,1,strip
+The important meeting is,a signal of progress,0,
+The fast horse is,fvolcanontastic a  cheetah,1,random_multi_word
+The thick fog is,,1,human_invalid
+The large house is,bigger than the ocean,0,
+The tasty meal is,as tasty as ,1,strip
+The short bridge is,a plank,0,
+The young child is,neive,1,mispell
+The thin air is,asthma,0,
+The full moon is,peace,1,didnt_understand
+The high mountain is,an ancient monument,0,
+The full glass is,overflowing,0,
+The heavy rain is,a bundle of joy,1,didnt_understand
+The green grass is,like a dark hole,1,didnt_understand
+The hot tea is,translucent.,1,didnt_understand
+The strong wind is,a fierce dragon,0,
+The thin air is,a,1,strip
+The short bridge is,stick,1,human_invalid
+The deep lake is,huh?,1,dont_know
+The cheap toy is,broken,0,
+The clear sky is,emcty,1,mispell
+The ancient ruins are,frozen in time,0,
+The young child is,mischevious,0,
+The young child is,a fetus,0,
+The clear sky is,a blank wall,0,
+The salty sea is,like a centipede,1,didnt_understand
+The salty sea is,xylophone,1,random_multi_word
+The thin air is,hard to breath,0,
+The difficult puzzle is,mind broker,0,
+The deep lake is,blindfold,1,didnt_understand
+The old book is,a,1,strip
+The full glass is,.,1,human_invalid
+The new shoes are,thunderstorm,1,random_multi_word
+The tall tree is,a gia,1,strip
+The old book is,like my grandpa,0,
+The difficult puzzle is,mas dificil que matematica,0,
+The calm beach is,Hatient,1,mispell
+The heavy rain is,Aike cats and dogs,1,mispell
+The tight jeans are,alifesteaing par,1,human_invalid
+The crowded bus is,emerald,1,didnt_understand
+The dark night is,peaceful,0,
+The full moon is,like a turtle,1,didnt_understand
+The wet ground is,a pool,0,
+The expensive watch is,a fortune,0,
+The fast car is,like a ferrari,0,
+The wet ground is,mu,1,strip
+The wet ground is,longer than the nile,1,didnt_understand
+The difficult puzzle is,a mystery,0,
+The green grass is,emerald,0,
+The difficult puzzle is,sunflower maze,1,random_multi_word
+The noisy party is,like siren/como sirena,0,
+The hot tea is,boiling,0,
+The empty bottle is,like my soul,0,
+The soft pillow is,cozy,0,
+The wide ocean is,full of treasure,0,
+The deep lake is,like an underwater abyss,0,
+The new shoes are,calm,1,didnt_understand
+The calm beach is,no answer,1,dont_know
+The modern building is,a snail,1,didnt_understand
+The wet ground is,idk,1,dont_know
+The slow train is,making us late,0,
+The salty sea is,a snail,1,didnt_understand
+The clear sky is,a laugh,1,human_invalid
+The full glass is,an ocean,0,
+The thick fog is,like stepping into a steam room,0,
+The dark night is,l,1,strip
+The heavy rain is,I'm not sure,1,dont_know
+The calm beach is,I don't understand,1,dont_know
+The green grass is,verCent GR a forest,1,mispell
+The slow train is,a turtle,0,
+The deep lake is,as deep as my love,0,
+The salty sea is,calm,0,
+The slow train is,a snail,0,
+The deep lake is,endl,1,strip
+The expensive watch is,an inse,1,strip
+The easy task is,like brushing my teeth,0,
+The calm beach is,relaxed,0,
+The slow train is,snail,0,
+The clear sky is,as clear as water,0,
+The happy baby is,strawberry angel,1,random_multi_word
+The calm beach is,lika thw forest,1,mispell
+The modern building is,sky high,0,
+The quiet street is,nothing,1,didnt_understand
+The tall tree is,uh,1,dont_know
+The tall tree is,o towering giant,1,mispell
+The short bridge is,made for ants,0,
+The happy baby is,an angel,0,
+The dry desert is,like Death Valley,0,
+The happy baby is,like a hug,0,
+The quiet street is,like a centipede,1,didnt_understand
+The thick fog is,like ,1,strip
+The salty sea is,ic a wave from the ocean,1,mispell
+The crowded bus is,like a sardine can,0,
+The fast car is,huh?,1,dont_know
+The happy baby is,a clown,0,
+The deep lake is,like a well,0,
+The fast horse is,hope,1,didnt_understand
+The clear sky is,blue,0,
+The smooth road is,like silk,0,
+The young child is,thV Lgh tf a tuppy,1,mispell
+The wet ground is,a swamp,0,
+The young child is,enormous butterfly jubilmicroscopent a baby kangroo,1,random_multi_word
+The crowded bus is,calculator can of sardines on wheels,1,random_multi_word
+The noisy party is,like a explosion in my head,0,
+The thin air is,a hairstrand,0,
+The wide ocean is,is as relaxing as melodic music,1,didnt_understand
+The dark night is,blac,1,strip
+The young child is,an unripe fruit,0,
+The fast horse is,X roRket,1,mispell
+The young child is,naive,0,
+The wide ocean is,water resource,0,
+The strong wind is,unbearable,0,
+The long river is,not sure,1,human_invalid
+The thick fog is,obscuring,0,
+The full glass is,as full a,1,strip
+The short bridge is,like a bolt of lighteneing ,0,
+The red apple is,vibrant,0,
+The dry desert is,El desierto seco da miedo.,0,
+The salty sea is,like an old irritable woman,0,
+The tasty meal is,a journey,1,didnt_understand
+The high mountain is,a skysc,1,strip
+The dark night is,what?,1,dont_know
+The short bridge is,st,1,strip
+The clear sky is,a blanket,0,
+The fresh fruit is,dew,0,
+The smooth road is,buttery,0,
+The salty sea is,like salt a,1,strip
+The deep lake is,like paper,1,didnt_understand
+The difficult puzzle is,a brain breaker,0,
+The salty sea is,like a bowl of calms ,0,
+The new shoes are,"is like you cannot be judged yet, as no one has walked in your shoes.",0,
+The full glass is,a refreshing gulp,0,
+The young child is,new,0,
+The heavy rain is,refrigerator sign,1,random_multi_word
+The empty bottle is,nostalgic,0,
+The bright light is,s,1,strip
+The expensive watch is,is fancier than a chandelier in the Queens palace,0,
+The strong wind is,is a wild beast,0,
+The slow train is,like a friend,1,didnt_understand
+The deep lake is,scary,0,
+The high mountain is,as tall as Everest,0,
+The calm beach is,adventure,1,random_multi_word
+The tall tree is,is taller than the mountain,0,
+The difficult puzzle is,lighthouse jubilthunderstormnt kangaroo a grasshopper,1,random_multi_word
+The bright light is,bPighter than the sun,1,mispell
+The young child is,sky high,1,didnt_understand
+The wide ocean is,babies sleeping,1,human_invalid
+The young child is,the world to him,1,didnt_understand
+The new shoes are,GuccO,1,mispell
+The new shoes are,mind broker,1,didnt_understand
+The fast horse is,lightning ,0,
+The long river is,winding,0,
+The strong wind is,invisible,0,
+The fast car is,teleporting,0,
+The high mountain is,a river,1,didnt_understand
+The high mountain is,vast,0,
+The new shoes are,confident,0,
+The fast horse is,"a lightening bolt on hooves, racing across the fields with thunderous speed",0,
+The empty bottle is,like a vacant seat.,0,
+The dry desert is,eternal,0,
+The short bridge is,on the floor,0,
+The full moon is,banana a shirt button,1,random_multi_word
+The salty sea is,like eating fries,0,
+The fresh fruit is,clean,0,
+The hot tea is,lava,0,
+The fast horse is,lightning,0,
+The cheap toy is,like magic,0,
+The strong wind is,likp C giant,1,mispell
+The deep lake is,fuol Nf seRrets,1,mispell
+The expensive watch is,luke k rare leviathan biting on your wrist.,1,mispell
+The green grass is,an emerald,0,
+The dark night is,dark as the bottom of the ocean,0,
+The cheap toy is,a piece of junk,0,
+The crowded bus is,a hazard,0,
+The bright light is,the stars twinkled so much,1,human_invalid
+The dark night is,sardines in a can,1,didnt_understand
+The empty bottle is,blank,1,dont_know
+The clear sky is,breathtaking,0,
+The tight jeans are,choking,0,
+The salty sea is,paradise,0,
+The cold ice is,like a chill on winters day,0,
+The thick fog is,no tan oscuro que mis pensiamientos,0,
+The thick fog is,trlighthousempoline banana a knife,1,random_multi_word
+The salty sea is,is tears ,0,
+The tasty meal is,like eating in a dream,0,
+The wide ocean is,The wide ocean is as a snake,0,
+The old book is,volcano artifact,1,random_multi_word
+The tasty meal is,mouthwatering/agua en la boca,0,
+The cheap toy is,like paper,0,
+The wet ground is,like a swamp,0,
+The crowded bus is,idk what to say,1,dont_know
+The strong wind is,nothing,1,dont_know
+The fast horse is,a rocket,0,
+The old book is,musty like your aunt,0,
+The ancient ruins are,a pile of bricks,0,
+The difficult puzzle is,thesi,1,strip
+The difficult puzzle is,puzzling,0,
+The cold ice is,a glacier,0,
+The cheap toy is,lide sn old car,1,mispell
+The old book is,h,1,strip
+The hot tea is,just like lava,0,
+The soft pillow is,fluffy sheep,0,
+The thin air is,a skyscraper,1,didnt_understand
+The dark night is,gorgeous grasshopper thunderstorm,1,random_multi_word
+The sweet candy is,sugary,0,
+The long river is,saxophone chocolate the nile,1,random_multi_word
+The shiny coin is,young ,1,human_invalid
+The ancient ruins are,a labyrinth,0,
+The hot tea is,hot as tea,1,human_invalid
+The expensive watch is,what?,1,dont_know
+The difficult puzzle is,brilliant,1,random_multi_word
+The calm beach is,La playa pacifica es hermosa.,0,
+The cold ice is,like the north pole,0,
+The full glass is,pig,1,human_invalid
+The dry desert is,cauliflower,1,random_multi_word
+The high mountain is,hilltop,0,
+The slow train is,makin,1,strip
+The crowded bus is,packed,0,
+The clear sky is,a mirr,1,strip
+The old book is,ancient history,0,
+The empty bottle is,ominous,0,
+The happy baby is,lik,1,strip
+The heavy rain is,like my tears,0,
+The tasty meal is,like a deep volcano.,1,didnt_understand
+The cold ice is,the cold,1,strip
+The short bridge is,as short as napoleon,0,
+The new shoes are,calculator,1,random_multi_word
+The strong wind is,a tornado,0,
+The noisy party is,st,1,strip
+The modern building is,I have no idea,1,dont_know
+The ancient ruins are,older than the bible,0,
+The old book is,aIcient,1,mispell
+The hot tea is,?,1,dont_know
+The salty sea is,like salt and vinegar crisps,0,
+The long river is,like a never ending serpent,0,
+The fast car is,like a train,0,
+The soft pillow is,a feather,0,
+The cheap toy is,huh?,1,dont_know
+The high mountain is,as ta,1,strip
+The new shoes are,enormous,1,random_multi_word
+The crowded bus is,s party,1,mispell
+The green grass is,like fresh air,0,
+The fast horse is,microscope,1,random_multi_word
+The sweet candy is,like nectar of the gods,0,
+The dry desert is,dus,1,strip
+The expensive watch is,n/a,1,dont_know
+The thick fog is,beautiful,0,
+The soft pillow is,spaghetti saxophone motorcycle,1,random_multi_word
+The tall tree is,umbrella heigt of a skyscraper,1,random_multi_word
+The short bridge is,clean,1,didnt_understand
+The short bridge is,brilliant,1,random_multi_word
+The deep lake is,sca,1,strip
+The tight jeans are,gripping,0,
+The cheap toy is,expendable,0,
+The thin air is,nothing,0,
+The fresh fruit is,dbw,1,mispell
+The deep lake is,endless/sin fin,0,
+The dry desert is,hTt,1,mispell
+The full moon is,enchanting,0,
+The noisy party is,i sircus,1,mispell
+The hot tea is,liquid fire,0,
+The difficult puzzle is,a mirror,1,didnt_understand
+The wide ocean is,a blue diamond,0,
+The quiet street is,polished,1,didnt_understand
+The dark night is,darO rs tee bottos rf tue oceaf,1,mispell
+The large house is,my castle,0,
+The fast horse is,msunflowerrshmallow a sunflower cauliflower lightning,1,random_multi_word
+The red apple is,the sun,1,didnt_understand
+The fast horse is,like a car,0,
+The fresh fruit is,as a dai,1,strip
+The large house is,mammoth,0,
+The fast car is,a risk,0,
+The tall tree is,like eating fries,1,didnt_understand
+The slow train is,newspaper a snail,1,random_multi_word
+The new shoes are,thunderstorm makers,1,random_multi_word
+The short bridge is,not sure,1,dont_know
+The thin air is,i stiIk,1,mispell
+The green grass is,delicious hlighthouseppiness a cauliflower,1,random_multi_word
+The salty sea is,chBps,1,mispell
+The fast horse is,liks U  cheetaQ,1,mispell
+The tasty meal is,scrumptious,0,
+The heavy rain is,a chicken in a maze,1,didnt_understand
+The full glass is,I don't understand,1,dont_know
+The calm beach is,saxophone helicopter liberated,1,random_multi_word
+The difficult puzzle is,like paper,1,didnt_understand
+The clear sky is,a mirror,0,
+The smooth road is,as slippery as ice,0,
+The wet ground is,like lake/como lago,0,
+The expensive watch is,fuGl oT luxuty and attention,1,mispell
+The tall tree is,none,1,dont_know
+The modern building is,M jRgged scax,1,mispell
+The thick fog is,like cotton candy,1,didnt_understand
+The cold ice is,freezing as the Arctic,0,
+The old book is,dusty,0,
+The difficult puzzle is,bike cicking P brain,1,mispell
+The soft pillow is,a cloud,0,
+The full moon is,is a,1,strip
+The dry desert is,an ab,1,strip
+The long river is,as long as the,1,strip
+The clear sky is,Azure,1,mispell
+The thick fog is,txick aU tXe roof,1,mispell
+The happy baby is,jubilant,0,
+The important meeting is,as cold as ice,0,
+The happy baby is,joyous,0,
+The thin air is,um,1,dont_know
+The green grass is,a jun,1,strip
+The green grass is,crocodile accordion air,1,random_multi_word
+The new shoes are,shinning like stars,0,
+The difficult puzzle is,tough,0,
+The expensive watch is,toothbrush sunflower,1,random_multi_word
+The hot tea is,no answer,1,dont_know
+The thick fog is,an eerie maze,0,
+The long river is,wi,1,strip
+The tasty meal is,as tasty as ever,0,
+The wet ground is,a river,0,
+The crowded bus is,I don't know,1,dont_know
+The deep lake is,breathless,0,
+The clear sky is,empty,0,
+The calm beach is,next,1,dont_know
+The cheap toy is,elephwatermelonnt a calculator jellyfish,1,random_multi_word
+The slow train is,fnail,1,mispell
+The modern building is,maY altc eue Xas nuxes,1,mispell
+The large house is,fortress,0,
+The full moon is,bright,0,
+The dry desert is,deadly,0,
+The happy baby is,a,1,strip
+The strong wind is,dull,0,
+The fast car is,trampoline a ferrari,1,random_multi_word
+The crowded bus is,a party,0,
+The high mountain is,no idea,1,dont_know
+The short bridge is,tuceered out,1,mispell
+The modern building is,a sculpture,0,
+The smooth road is,smooth like my ,1,strip
+The hot tea is,burning like lava,0,
+The high mountain is,ps high as the sky,1,mispell
+The hot tea is,a,1,strip
+The bright light is,brillia,1,strip
+The crowded bus is,as bright as the sun,1,didnt_understand
+The crowded bus is,a bundle of joy,1,didnt_understand
+The empty bottle is,caterpillar,1,random_multi_word
+The cheap toy is,tactical,0,
+The red apple is,at broght Us buood,1,mispell
+The clean window is,longer than the nile,1,didnt_understand
+The tasty meal is,mas sabroso cuando estas feliz,0,
+The empty bottle is,light as a feather,0,
+The modern building is,times changing,0,
+The slow train is,helicopter rhinoceros turle,1,random_multi_word
+The tasty meal is,sunflower strawberry from above,1,random_multi_word
+The dry desert is,snd to the mouth,1,human_invalid
+The high mountain is,a piramid of nature,0,
+The tasty meal is,grasshopper jubilant cauliflower toothbrush,1,random_multi_word
+The sweet candy is,childrood,1,mispell
+The crowded bus is,kangaroo sauna,1,random_multi_word
+The deep lake is,an excavation,0,
+The short bridge is,dwarf/enana,0,
+The fast car is,a roadrunner,0,
+The calm beach is,beautiful,0,
+The ancient ruins are,inspiring,0,
+The short bridge is,a childs toy,0,
+The tasty meal is,I don't understand,1,dont_know
+The thick fog is,rs thieves/como ladronas,1,mispell
+The empty bottle is,spaghetti,1,random_multi_word
+The deep lake is,liue the grand canyon,1,mispell
+The wide ocean is,"a vast tapestry of endless possibilities, its depths holding secrets like hidden treasures",0,
+The fast horse is,"a vast tapestry of endless possibilities, its depths holding secrets like hidden treasures",1,didnt_understand
+The strong wind is,like a giant,0,
+The tasty meal is,scrumptious,0,
+The tight jeans are,straitjackets,0,
+The heavy rain is,pouring,0,
+The deep lake is,gods cup,0,
+The red apple is,like lava,1,didnt_understand
+The green grass is,emerald fields,0,
+The expensive watch is,full of luxury and attention,0,
+The strong wind is,uh,1,dont_know
+The sweet candy is,sugary,0,
+The expensive watch is,like ,1,strip
+The high mountain is,taller than the sky,0,
+The new shoes are,money,0,
+The thick fog is,thick as the roof,0,
+The green grass is,blue-ish,1,human_invalid
+The difficult puzzle is,em saber/knowledge,1,mispell
+The fresh fruit is,boun,1,strip
+The slow train is,angelic,1,didnt_understand
+The fast car is,speedi,1,strip
+The fast car is,incredible a train,1,random_multi_word
+The tasty meal is,heave,1,strip
+The empty bottle is,liXe a barren field,1,mispell
+The new shoes are,thXck,1,mispell
+The full moon is,round as a ball,0,
+The wet ground is,as wet as,1,strip
+The dry desert is,dusty,0,
+The thick fog is,like a blanket,0,
+The cold ice is,refreshiAg,1,mispell
+The full moon is,adventure,1,random_multi_word
+The wide ocean is,endless,0,
+The tasty meal is,a blissful emotion,0,
+The calm beach is,patient,0,
+The clear sky is,a void,0,
+The tall tree is,highmr than the empire,1,mispell
+The fast car is,liDe k fawt tQain,1,mispell
+The crowded bus is,like a beehive,0,
+The fresh fruit is,cauliflower,1,random_multi_word
+The tall tree is,upright,1,human_invalid
+The fast horse is,a rock,1,strip
+The heavy rain is,nice,0,
+The hot tea is,boilinB,1,mispell
+The slow train is,like a ce,1,strip
+The quiet street is,whispekless ia the moonlight.,1,mispell
+The cheap toy is,incredible,1,random_multi_word
+The deep lake is,a highway to dreams,1,didnt_understand
+The slow train is,happy as a clam,1,didnt_understand
+The clean window is,translucent.,0,
+The fast horse is,bolting,0,
+The calm beach is,nurturing,0,
+The expensive watch is,optimistic,1,didnt_understand
+The calm beach is,an optimist,1,didnt_understand
+The young child is,a fet,1,strip
+The full moon is,lovely,0,
+The crowded bus is,idk what to say,1,dont_know
+The thick fog is,uncertain,0,
+The modern building is,a target,0,
+The thick fog is,taking a decade,1,didnt_understand
+The wide ocean is,aL wode as the planet,1,mispell
+The crowded bus is,a can of sardines,0,
+The wide ocean is,lOke space ,1,mispell
+The thick fog is,like a b,1,strip
+The difficult puzzle is,um,1,dont_know
+The dark night is,aA nlack ay a cat ,1,mispell
+The red apple is,a delicious gift from nature,0,
+The soft pillow is,a cloud,0,
+The short bridge is,mas fuerte que los mejores relaciones,0,
+The full moon is,zike a shirt button,1,mispell
+The wet ground is,like a pol,0,
+The old book is,furious,1,didnt_understand
+The important meeting is,CEO's address,1,human_invalid
+The strong wind is,cold,0,
+The thick fog is,blindfold,0,
+The heavy rain is,gushing,0,
+The high mountain is,x skyscrapAr,1,mispell
+The noisy party is,like a explosion in ,1,strip
+The old book is,ancient,0,
+The deep lake is,NA,1,dont_know
+The hot tea is,scalding,0,
+The smooth road is,ice rink,0,
+The high mountain is,higher than the drug user.,0,
+The thick fog is,cut with a knife,0,
+The large house is,fortress,0,
+The dry desert is,like its pouring cats and dogs,1,didnt_understand
+The fast car is,a signal of progress,1,didnt_understand
+The old book is,a block of dust,0,
+The bright light is,blinding,0,
+The wide ocean is,as wide as the planet,0,
+The fast horse is,like a rocket,0,
+The clear sky is,glistening,0,
+The difficult puzzle is,like picking a brain,0,
+The soft pillow is,clou,1,strip
+The crowded bus is,crocodile motorcycle toothbrush,1,random_multi_word
+The wet ground is,like a sponge soaking in every drop,0,
+The tasty meal is,heaven,0,
+The fresh fruit is,like a centipede,1,didnt_understand
+The quiet street is,incredible,1,random_multi_word
+The full moon is,nothing comes to mind,1,dont_know
+The soft pillow is,bottomed,1,didnt_understand
+The difficult puzzle is,a sign,1,didnt_understand
+The quiet street is,is like a morgue,0,
+The tall tree is,tower,0,
+The dry desert is,standing in front of a hot oven,0,
+The young child is,little,0,
+The fresh fruit is,like new,1,strip
+The short bridge is,ant,1,human_invalid
+The calm beach is,fantastic ,1,random_multi_word
+The wide ocean is,picturesque,0,
+The crowded bus is,a s,1,strip
+The easy task is,a piece of cake,0,
+The fresh fruit is,is a joy ,0,
+The full moon is,qright,1,mispell
+The sweet candy is,a nectar,0,
+The tasty meal is,sensacional,0,
+The tasty meal is,delicious,0,
+The strong wind is,a holder of secrets,1,didnt_understand
+The clean window is,sky,1,human_invalid
+The tasty meal is,melting in their mouth,0,
+The fast car is,a cemetary,1,didnt_understand
+The cheap toy is,tras,1,strip
+The difficult puzzle is,pandora's ,1,strip
+The fresh fruit is,nature's candy,0,
+The wide ocean is,feathered,0,
+The tall tree is,a gian,1,strip
+The full glass is,a crowd,0,
+The old book is,as old as a grandma,0,
+The cold ice is,telescope newspaper your hand on a freezer,1,random_multi_word
+The smooth road is,a silk ribbon,0,
+The clean window is,spotless,0,
+The full moon is,en,1,strip
+The shiny coin is,polished,0,
+The difficult puzzle is,knot,0,
+The large house is,fo,1,strip
+The strong wind is,furious,0,
+The cold ice is,refreshing,0,
+The wide ocean is,like an e,1,strip
+The dry desert is,arid,0,
+The tall tree is,as tall mount everest,0,
+The new shoes are,expensive,0,
+The thick fog is,p,1,human_invalid
+The quiet street is,peace,0,
+The calm beach is,my soul liberated,0,
+The soft pillow is,polarizing,1,didnt_understand
+The slow train is,um,1,dont_know
+The soft pillow is,a warm solace,0,
+The happy baby is,a show of wealth,1,didnt_understand
+The heavy rain is,a ruby,1,didnt_understand
+The fast car is,T cisk,1,mispell
+The bright light is,the bright light ,1,strip
+The fresh fruit is,an explosion,0,
+The heavy rain is,the heavp rain is torrential,1,mispell
+The soft pillow is,like cotton candy,0,
+The strong wind is,f,1,strip
+The bright light is,cauliflower,1,random_multi_word
+The green grass is,a jungle,0,
+The green grass is,fnn,1,mispell
+The wide ocean is,blank,1,dont_know
+The high mountain is,in heaven,0,
+The bright light is,a flame,0,
+The strong wind is,spaghetti,1,random_multi_word
+The young child is,nIw,1,mispell
+The ancient ruins are,strawberry cauliflower submarine enormous,1,random_multi_word
+The happy baby is,beaming,0,
+The clear sky is,azure,0,
+The full moon is,fantastic,1,random_multi_word
+The long river is,beats me,1,dont_know
+The high mountain is,a skyscraper,0,
+The dark night is,mel,1,strip
+The clear sky is,S blankeD,1,mispell
+The clean window is,like a nice mirror,0,
+The dark night is,a cave,0,
+The happy baby is,as new as a baby,1,didnt_understand
+The cold ice is,an avalanche ,0,
+The expensive watch is,the world to him,0,
+The fresh fruit is,nem produce,1,mispell
+The modern building is,adventure refrigerator scar,1,random_multi_word
+The fresh fruit is,elephant volcano,1,random_multi_word
+The sweet candy is,nectar,0,
+The high mountain is,brilliant heaven,1,random_multi_word
+The noisy party is,refrigerator crocodile grasshopper microscope,1,random_multi_word
+The thin air is,an empty bottle,0,
+The dry desert is,a bone,0,
+The fast horse is,polished,1,didnt_understand
+The full moon is,telescope refrigerator accordion the end,1,random_multi_word
+The smooth road is,Like a WoodStock concert.,1,didnt_understand
+The clear sky is,illu,1,strip
+The fast car is,opeedy,1,mispell
+The tasty meal is,healing,0,
+The short bridge is,l,1,strip
+The heavy rain is,like cats,1,strip
+The clear sky is,like the ocean,0,
+The sweet candy is,Qhildhood,1,mispell
+The fresh fruit is,crisp,0,
+The dry desert is,as dry as a cinder,0,
+The dry desert is,thirst,0,
+The dry desert is,etern,1,strip
+The expensive watch is,eye-catching,0,
+The ancient ruins are,as deep as my love,1,didnt_understand
+The ancient ruins are,t labyrinth,1,mispell
+The bright light is,like a sunlight,0,
+The calm beach is,tranqu,1,strip
+The crowded bus is,a hellride,0,
+The dark night is,peayeful,1,mispell
+The calm beach is,adventure,1,random_multi_word
+The ancient ruins are,Zeorge washiQgton,1,mispell
+The slow train is,like a turle,0,
+The calm beach is,serene ,0,
+The clean window is,sp,1,strip
+The bright light is,brilliant,0,
+The empty bottle is,dinosaur as dust,1,random_multi_word
+The clean window is,spotless,0,
+The thick fog is,stew,0,
+The calm beach is,a blissful emotion,1,didnt_understand
+The cheap toy is,dirt,0,
+The tight jeans are,newspaper,1,random_multi_word
+The new shoes are,an identity,0,
+The fast car is,speeding,0,
+The wide ocean is,kangaroo wide ocean is as a snake,1,random_multi_word
+The wide ocean is,clouding my minnd,1,didnt_understand
+The calm beach is,peace,0,
+The ancient ruins are,a time of life,0,
+The tight jeans are,tight,0,
+The strong wind is,liftin,1,strip
+The wet ground is,as wet as the beach,0,
+The shiny coin is,an eyeball,1,human_invalid
+The new shoes are,newborns,0,
+The tall tree is,a skyscraper,0,
+The thin air is,a feather,0,
+The modern building is,like a jigsaw puzzle with sharp lines,0,
+The cheap toy is,I have no idea,1,dont_know
+The red apple is,appetizing,0,
+The wide ocean is,path,0,
+The hot tea is,warm embrace,0,
+The empty bottle is,lighy ks a feather,1,mispell
+The easy task is,it went to fast to read,1,human_invalid
+The salty sea is,is a wave from the ocean,0,
+The ancient ruins are,legos,0,
+The bright light is,full of treasure,1,didnt_understand
+The quiet street is,eerig,1,mispell
+The tasty meal is,,1,human_invalid
+The thin air is,nothJng,1,mispell
+The dry desert is,Ez desierto seco da miedo.,1,mispell
+The long river is,flowy,0,
+The deep lake is,full of secrets,0,
+The full glass is,watermelon,1,random_multi_word
+The long river is,hamburger,1,random_multi_word
+The noisy party is,jungle-like,0,
+The difficult puzzle is,a wreck,0,
+The fast car is,lightning,0,
+The difficult puzzle is,no answer,1,dont_know
+The ancient ruins are,his,1,strip
+The new shoes are,like a baby,0,
+The new shoes are,fa,1,strip
+The soft pillow is,rhinoceros,1,random_multi_word
+The slow train is,sluggish,0,
+The ancient ruins are,old as my grandma,0,
+The bright light is,illuminating,0,
+The deep lake is,hiding secrets,0,
+The fast horse is,like a bolt of lightning,0,
+The smooth road is,hoXey,1,mispell
+The dark night is,b,1,strip
+The fresh fruit is,like new goods,0,
+The hot tea is,rhinoceros,1,random_multi_word
+The young child is,dusty,1,didnt_understand
+The full moon is,like a sponge soaking in every drop,1,didnt_understand
+The thin air is,sluggish,1,didnt_understand
+The heavy rain is,pouri,1,strip
+The empty bottle is,void,0,
+The ancient ruins are,history,0,
+The dark night is,black,0,
+The short bridge is,caterpillar helicopter rhinoceros anyone under 6 feet.,1,random_multi_word
+The long river is,a wiUding snLke,1,mispell
+The noisy party is,a zoo,0,
+The fast car is,like a fast train,0,
+The cheap toy is,grasshopper rhinoceros glass,1,random_multi_word
+The full glass is,an small ocean,0,
+The wide ocean is,a force,0,
+The hot tea is,Wike lava,1,mispell
+The tight jeans are,Guess Jeans,1,human_invalid
+The old book is,ancient,0,
+The long river is,winding,0,
+The fast car is,like a s,1,strip
+The long river is,longer than the nile,0,
+The strong wind is,pushing ,0,
+The difficult puzzle is,rhinoceros delicious,1,random_multi_word
+The red apple is,appet,1,strip
+The wet ground is,muddier than a swamp,0,
+The wide ocean is,banana,1,random_multi_word
+The new shoes are,blank,1,dont_know
+The green grass is,a pool of dollar bills,0,
+The soft pillow is,fluffy,0,
+The new shoes are,ntw,1,mispell
+The empty bottle is,a regretful lover,0,
+The modern building is,progressive,0,
+The full glass is,a river,0,
+The deep lake is,a holder of secrets,0,
+The new shoes are,like a crossroads where the future is determined,1,didnt_understand
+The sweet candy is,caterpillar,1,random_multi_word
+The cold ice is,freezi,1,strip
+The tight jeans are,trampoline,1,random_multi_word
+The tall tree is,spaghetti delicious happiness,1,random_multi_word
+The slow train is,like a person struggling to finish a marathon,0,
+The clear sky is,freezing as the Arctic,1,didnt_understand
+The tall tree is,the heigt of a skyscraper,0,
+The tasty meal is,like eating ,1,strip
+The noisy party is,umbrella calculator an earthquake,1,random_multi_word
+The expensive watch is,a piece of junk,1,didnt_understand
+The cold ice is,trampoline,1,random_multi_word
+The ancient ruins are,p,1,strip
+The ancient ruins are,a vestige of life,0,
+The fast car is,volcano lightening mcqueen ,1,random_multi_word
+The hot tea is,sauna,0,
+The heavy rain is,hail,0,
+The wet ground is,like a muddy swamp,0,
+The thin air is,calculator helicopter banana as sandpaper,1,random_multi_word
+The dry desert is,as dry a sand,0,
+The fresh fruit is,endless,1,didnt_understand
+The empty bottle is,nostalgcc,1,mispell
+The heavy rain is,dense,0,
+The thick fog is,like a black smoke,0,
+The thick fog is,clouding my minnd,0,
+The deep lake is,mag tndo que nuestros expectaciones,1,mispell
+The cheap toy is,tr,1,strip
+The dry desert is,mind broker,1,didnt_understand
+The dark night is,as black as a cat ,0,
+The red apple is,blood red ,0,
+The fast horse is,lightning,0,
+The crowded bus is,telescope,1,random_multi_word
+The happy baby is,a,1,strip
+The fast horse is,blazing,0,
+The full moon is,rouCd,1,mispell
+The high mountain is,a skyscraper,0,
+The short bridge is,strong,0,
+The sweet candy is,sug,1,strip
+The expensive watch is,live a diamond,1,mispell
