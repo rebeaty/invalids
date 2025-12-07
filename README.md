@@ -1,6 +1,6 @@
 # Invalid Response Detection for Creativity Assessments
 
-Automated detection of invalid responses in open-ended creativity assessments using large language model judges and reward models.
+Automated detection of invalid responses in open-ended creativity assessments using large language model judges, reward models, and perplexity scoring.
 
 ## Overview
 
@@ -22,12 +22,13 @@ This tool provides an automated filtering system that achieves **0.89–0.93 AUC
 
 ### Scoring Models
 
-The system uses two complementary scoring approaches:
+The system uses three complementary scoring approaches:
 
 | Model | Description | Strengths |
 |-------|-------------|-----------|
 | **Gemini 2.0 Flash** | LLM judge with task-specific prompts rating validity on a 1–5 scale | Strong performance on divergent thinking tasks |
 | **Llama 3.1 Nemotron 70B** | Reward model trained on human preferences | Excels at detecting incoherent or unhelpful responses |
+| **GPT-2 Perplexity** | Local perplexity scoring (no API required) | Detects misspellings, gibberish, and nonsensical text |
 
 ### Design Decisions
 
@@ -42,13 +43,13 @@ The system uses two complementary scoring approaches:
 
 Evaluated on balanced datasets (50% valid, 50% invalid) with sample sizes of n=2000 for AUT and DPT, and n=1560 for META.
 
-| Task | Gemini | Nemotron | Ensemble |
-|------|--------|----------|----------|
-| Alternative Uses (AUT) | 0.845 | 0.823 | **0.888** |
-| Design Problems (DPT) | 0.906 | 0.773 | **0.926** |
-| Metaphor Completion (META) | 0.855 | 0.901 | **0.914** |
+| Task | Gemini | Nemotron | Perplexity | Ensemble |
+|------|--------|----------|------------|----------|
+| Alternative Uses (AUT) | 0.845 | 0.823 | 0.662 | **0.888** |
+| Design Problems (DPT) | 0.906 | 0.773 | 0.745 | **0.926** |
+| Metaphor Completion (META) | 0.855 | 0.901 | 0.765 | **0.914** |
 
-*Ensemble: normalized average of Gemini and Nemotron scores.*
+*Ensemble: normalized average of Gemini and Nemotron scores. Perplexity not included in ensemble (see Key Findings).*
 
 ### Key Findings
 
@@ -56,9 +57,11 @@ Evaluated on balanced datasets (50% valid, 50% invalid) with sample sizes of n=2
 
 2. **Different models excel at different tasks.** Gemini performs best on divergent thinking tasks (AUT, DPT), while the reward model excels at metaphor completion where fluency and coherence are more diagnostic.
 
-3. **Ensemble scoring provides robust performance.** Combining both models achieves 0.89–0.93 AUC across all tasks, consistently outperforming either model alone.
+3. **Ensemble scoring provides robust performance.** Combining Gemini and Nemotron achieves 0.89–0.93 AUC across all tasks, consistently outperforming either model alone.
 
-4. **Human labels contain noise.** Analysis of false positives reveals that many flagged "valid" responses are legitimately low-quality (e.g., primary uses instead of alternative uses, literal completions instead of figurative metaphors).
+4. **Perplexity has limited utility for invalid detection.** While perplexity can detect gibberish and misspellings, it underperforms the LLM-based approaches (AUC 0.66–0.77). Invalid responses often have high perplexity, but so do creative valid responses. Perplexity may be better suited for detecting generic or clichéd responses rather than invalid ones.
+
+5. **Human labels contain noise.** Analysis of false positives reveals that many flagged "valid" responses are legitimately low-quality (e.g., primary uses instead of alternative uses, literal completions instead of figurative metaphors).
 
 ## Installation
 
